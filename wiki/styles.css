@@ -1,0 +1,71 @@
+body {
+    background-color: #0e0f;
+}*
+/*body {
+    background: url('./images/background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}*/
+
+h1, h2 {
+    color: #ff0000; /* Vermelho */
+}
+
+.navbar {
+    background-color: #29272783 !important;
+}
+
+.list-group-item {
+    background-color: #000;
+    border: 1px solid #ff0000;
+}
+
+footer {
+    background-color: #000;
+    color: #ff0000;
+}
+.img-retangular {
+    width: 150px; /* Largura do retângulo */
+    height: 300px; /* Altura do retângulo */
+    border-radius: 20px; /* Borda levemente arredondada */
+    object-fit: fill; /* Garante que a imagem preencha o retângulo sem distorção */
+    border: 2px solid #ff0000; /* Borda vermelha opcional */
+}
+.img-left {
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-right {
+    float: right;
+    margin-left: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+.content {
+    overflow: hidden; /* Garante que o texto flua corretamente ao redor das imagens */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.texto-com-borda {
+    border: 2px solid #ff0000; /* Borda vermelha de 2px */
+    padding: 10px; /* Espaçamento interno entre o texto e a borda */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+.sidebar {
+    position: fixed; /* Faz a sidebar ficar fixa na tela */
+    top: 0; /* Fixa no topo */
+    left: 0; /* Fixa na esquerda */
+    width: 200px; /* Largura da sidebar */
+    height: 100%; /* Altura de 100% da tela */
+    background-color: #333; /* Cor de fundo da sidebar */
+    color: white;
+    padding: 20px;
+}
