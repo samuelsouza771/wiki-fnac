@@ -1,6 +1,6 @@
 body {
-    background-color: #0e0f;
-}*
+    background-color: #0e0f11;
+}
 /*body {
     background: url('./images/background.jpg');
     background-size: cover; 
@@ -59,13 +59,11 @@ footer {
     padding: 10px; /* Espaçamento interno entre o texto e a borda */
     border-radius: 10px; /* Bordas arredondadas */
 }
-.sidebar {
-    position: fixed; /* Faz a sidebar ficar fixa na tela */
-    top: 0; /* Fixa no topo */
-    left: 0; /* Fixa na esquerda */
-    width: 200px; /* Largura da sidebar */
-    height: 100%; /* Altura de 100% da tela */
-    background-color: #333; /* Cor de fundo da sidebar */
-    color: white;
-    padding: 20px;
+.titulos {
+    height: 10%;
+    width: 40%;
+    text-align: center;
+    border-radius: 0%;
+    object-fit: fill;
+    border: 2px solid #ff0000;
 }
