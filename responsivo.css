@@ -1,0 +1,36 @@
+@media (max-width: 479px){
+    body, html {
+        overflow: hidden;
+        width: auto;
+    }
+
+    .inicio {
+        display: grid;
+    }
+
+    .logo {
+        width: 200px;
+        margin-right: 100px;
+    }
+
+    .JLB {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .intro {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .Fetec {
+        margin: 30px;
+        font-size: 40px;
+    }
+
+    .texto-com-borda {
+        font-size: 20px;
+    }
+}
