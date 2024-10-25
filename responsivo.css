@@ -1,6 +1,6 @@
 @media (max-width: 479px){
     body, html {
-        overflow: hidden;
+        
         width: auto;
     }
 
@@ -32,5 +32,18 @@
 
     .texto-com-borda {
         font-size: 20px;
+    }
+    
+    img {
+        height: 400px;
+        width: 400px;
+        justify-content: center;
+    }
+    .startscreen{
+        height: 300px;
+        width: 350px;
+    }
+    .records {
+        display: grid;
     }
 }
